@@ -1,0 +1,56 @@
+body
+{
+	background-color:#DDDDDD;
+}
+img
+{
+	float:right;
+}
+img.Damage
+{
+    border:ridge;
+}
+img.Damage:hover
+{
+    transform:rotate(0.5turn);
+}
+tr:nth-child(2n+1)
+{
+    background-image:url("Gilgliv_s.png")
+}
+td
+{
+    border:inset;
+	font-family:Courier;
+}
+.YonHeader
+{
+    text-align:center;
+}
+h1
+{
+	color:green;
+}
+th
+{
+    background-color:#300101;
+    border-color:black;
+    border:outset;
+	color:#4cff00;
+}
+h2
+{
+    display:none;
+}
+.TheLink
+{
+    height: 50px;
+    font-size:larger;
+    font-weight:500;
+    text-align:center;
+    vertical-align:bottom;
+}
+.TheLink:visited
+{
+    background-color:#4cff00;
+}
